@@ -1,0 +1,107 @@
+.container{
+    background-color: #FFFFFF;
+    min-height: 518px;
+    min-width: 428px;
+    box-shadow: 1px 8px 28px 12px rgba(128, 128, 128, 0.308);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+
+.container h2{
+    margin-top: 40px;
+}
+
+.login-note{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 360px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.form-input{
+    width: 330px;
+}
+
+.MuiInputBase-formControl{
+    margin-bottom: 8px;
+}
+
+.form-input input{
+    padding: 10px 14px !important;
+}
+.forget-pass-btn{
+    position: absolute;
+    bottom: 52px;
+    right: 28px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.signin-btn{
+    margin-top: 30px;
+    padding: 12px 142px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4A3AFF;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+.signin-btn:hover{
+    background-color: #93AAFD;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    top: -6px !important;  
+}
+.divider{
+    position: relative;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+.divider::before{
+    content: "____________________";
+    position: absolute;
+    margin-left: -135px;
+    margin-top: -5px;
+    color: rgba(128, 128, 128, 0.61);
+}
+.divider::after{
+    content: "____________________";
+    position: absolute;
+    margin-right: -200px;
+    margin-top: -5px;
+    color: rgba(128, 128, 128, 0.61);
+}
+
+.signin-option-conatiner img{
+    width: 16px;
+    height: 18px;
+    margin-right: 27px;
+}
+.register-note{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: gray;
+}
+.register-note b{
+    color: black;
+}

@@ -1,0 +1,36 @@
+ .register-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+ }
+ .register-container{
+    background-color: #FFFFFF;
+    min-height: 518px;
+    min-width: 428px;
+    box-shadow: 1px 8px 28px 12px rgba(128, 128, 128, 0.308);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+ }
+
+ .register-container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 360px;
+    position: relative;
+    margin-top: 30px;
+ }
+
+ .sign-up-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+ }
