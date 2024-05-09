@@ -5,6 +5,7 @@ import Support from '../../images/support.png'
 import Logout from '../../images/logout.png'
 import Profile from '../../images/profile.png'
 import QuestionConatiner from './QuestionContainer'
+import TopicsContainer from './TopicsContainer'
 
 export default function Dashboard(){
     return(
@@ -47,7 +48,8 @@ export default function Dashboard(){
                     </div>
                 </div>
                 <div className='question-container'>
-                    <QuestionConatiner/>
+                    {/* <QuestionConatiner/> */}
+                    <TopicsContainer/>
                 </div>
             </div>
         </div>
